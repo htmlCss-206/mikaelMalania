@@ -1,0 +1,65 @@
+nav p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+.navItem1, .navItem2, .navItem3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navItem1 span {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.navItem2 span {
+    width: 180px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.navItem3 span {
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 960px;
+}
+
+#mainText1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+}

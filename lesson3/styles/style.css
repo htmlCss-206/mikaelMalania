@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#merc2 {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 28px;
+}
+

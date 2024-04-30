@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                flex-direction: column;
+            }
+
+            button {
+                background-color: #5f9ea0;
+                padding: 10px 40px;
+                border-radius: 20px;
+                border: none;
+                color: #f5f5dc;
+                margin-top: 10px;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: #5F7EA0;
+                color: #E9F5DC;
+            }
+
+            button:active {
+                background-color: #485f78;
+            }
+
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                color: #333;
+            }
+
+            input:focus {
+                border-color: dodgerblue;
+                outline: none;
+                background-color: #ababab;
+            }
+
+            a {
+                text-decoration: none;
+                margin-top: 10px;
+            }
+
+            a:visited {
+                color: pink;
+            }
+
+            a:link {
+                color: red;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="buttons">
+            <input placeholder="Enter a product name">
+            <button>
+                Buy Now!
+            </button>
+            
+            <a href="https://google.com">Learn More</a>
+        </div>
+    </body>
+</html>

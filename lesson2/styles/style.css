@@ -1,0 +1,17 @@
+/* p {
+    color: brown;
+    font-size: 24px;
+} */
+
+#paragraph1 {
+    color: brown;
+    font-size: 24px;
+}
+
+.mainBodyPart {
+    background-color: burlywood;
+}
+
+h3 {
+    color: aqua;
+}
