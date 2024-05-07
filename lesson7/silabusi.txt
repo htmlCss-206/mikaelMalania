@@ -1,0 +1,3 @@
+• პოზიციონირების განსაზღვრა - position property - static/absolute/relative / fixed / sticky
+• transform property
+• ჩრდილი - box-shadow / text-shadow
