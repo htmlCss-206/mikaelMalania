@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <style>
+            .circle {
+                width: 160px;
+                height: 120px;
+                background-color: tomato;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .circle:hover {
+                /* width: 260px;
+                height: 180px; */
+                animation-name: circleAnimation;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+
+            }
+
+            .circle p {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 24px;
+                color: rgb(235, 220, 192);
+                padding-right: 30px;
+                padding-left: 30px;
+                padding-top: 45px;
+                padding-bottom: 45px;
+            
+            }
+
+
+            .circle p:hover {
+                animation-name: circlePtagAnimation;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                /* font-size: 48px; */
+            }
+
+            @keyframes circleAnimation {
+                from {
+                    transform: scale(1);
+                    border-radius: 0%;
+                } to {
+                    transform: scale(2);
+                    border-radius: 20px;
+                }
+            }
+
+            @keyframes circlePtagAnimation {
+                from {
+                    transform: scale(1);
+                } to {
+                    transform: scale(1.2);
+                }
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="circle">
+            <p> 
+                Circle div
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            .div1 {
+                width: 150px;
+                height: 150px;
+                background-color: rebeccapurple;
+                animation-name: figureMover;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                position: relative;
+                border-radius: 50%;
+                animation-direction:alternate-reverse;
+            }
+
+            @keyframes colorChanger {
+                from {background-color: rebeccapurple;}
+                to {background-color: rgb(51, 104, 153);}
+            }
+
+            @keyframes figureMover {
+                0% {
+                    background-color: rebeccapurple;
+                    left: 0px;
+                    top: 0px;
+                }
+
+                25% {
+                    background-color: rgb(51, 65, 153);
+                    left: 72%;
+                    top: 0%;
+                }
+
+                50% {
+                    background-color: rgb(51, 153, 144);
+                    left: 72%;
+                    top: 72%;
+                }
+
+                75% {
+                    background-color: rgb(51, 153, 76);
+                    left: 0%;
+                    top: 72%;
+                }
+
+                100% {
+                    background-color: rgb(153, 138, 51);
+                    left: 0%;
+                    top: 0%;
+                }
+
+
+
+
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="div1"></div>
+    </body>
+</html>

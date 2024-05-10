@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            .circle {
+                background-color: tomato;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                transition-property: width, height;
+                transition-duration: 5s;
+                transition-timing-function: ease-in;
+            }
+
+            .circle:hover {
+                height: 400px;
+                width: 400px;
+                cursor: pointer;
+            }
+            
+            .circleWrapperDiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                background-color: rgb(39, 13, 13);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="circleWrapperDiv">
+            <div class="circle">
+            </div>
+        </div>
+    </body>
+</html>
