@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            div p {
+                padding: 10px;
+                background-color: rgb(46, 151, 116);
+                text-align: center;
+                font-family: 'Trebuchet MS';
+                color:bisque;
+                width: 100%;
+            }
+
+            div {
+                background-color: rgb(31, 105, 73);
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                align-items: center;
+            }
+
+            @media only screen and (max-width: 480px)
+            {
+                div {
+                    background-color: rgb(46, 104, 151);
+                }
+
+                div p {
+                    background-color: rgb(46, 151, 140);
+                }
+            }
+
+            @media only screen and (min-width: 481px) and (max-width: 767px)
+            {
+                div {
+                    background-color: rgb(151, 135, 46);
+                }
+
+                div p {
+                    background-color: rgb(151, 46, 78);
+                }
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 979px)
+            {
+                div {
+                    background-color: rgb(151, 46, 132);
+                }
+
+                div p {
+                    background-color: rgb(55, 46, 151);
+                    font-size: 48px;
+                }
+            }
+
+            @media only screen and (min-width: 980px) and (max-width: 1200px)
+            {
+                div {
+                    background-color: rgb(151, 88, 46);
+                }
+
+                div p {
+                    background-color: rgb(46, 151, 142);
+                }
+            }
+        </style>
+
+        <meta name="viewport" content="width=device-width, Initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div>
+            <p>Some Div Content Data</p>
+        </div>
+    </body>
+</html>

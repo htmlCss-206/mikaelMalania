@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Manrope:wght@800&display=swap');
+            #logoText {
+                font-family: Manrope;
+                color: #DEDEDE;
+            }
+
+            .divClass {
+                display: flex;
+                align-items: center;
+                margin-left: 5%;
+            }
+
+            header {
+                background-color: #323232;
+                height: 60px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            body {
+                margin: 0;
+                background-color: #202020;
+            }
+
+            .navLinks {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 200px;
+                margin-right: 5%;
+            }
+
+            .navLinks a {
+                color: #DEDEDE;
+                font-family: Manrope;
+                text-decoration: none;
+            }
+
+            #welcMessage {
+                color: white;
+                font-family: Manrope;
+                font-size: 64px;
+                margin: 0;
+                width: 750px;
+            }
+
+            #slogan {
+                color: #959595;
+                font-size: 24px;
+                width: 500;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+
+            .sendBtn {
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                color: #ffffff;
+                background-color: #9D9D9D;
+                width: 400px;
+                height: 64px;
+                align-items: center;
+                font-family: Manrope;
+                border-radius: 10px;
+                position: relative;
+                top: 15px;
+            }
+
+            .sendBtn img {
+                margin-right: 16px;
+            }
+
+            .welcomeText {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .mainWrapper {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 120px;
+                align-items: center;
+            }
+
+            .leftSideWrapper {
+                position: relative;
+                right: 100px;
+            }
+
+            .featuredWorkBtn {
+                display: flex;
+                justify-content: start;
+                text-decoration: none;
+                position: relative;
+                top: 163px;
+                left: 96px;
+            }
+
+            .featuredWorkBtn p {
+                font-size: 16px;
+                color: #DEDEDE;
+                margin-left: 32px;
+            }
+
+            .image1 {
+                background-image: url('./images/1.png');
+                width: 612px;
+                height: 888px;
+                /* filter: brightness(2.5) contrast(1.1); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .image1 p {
+                font-size: 40px;
+                font-family: Manrope;
+                color: #DEDEDE;
+            }
+
+            .sliderWrapper {
+                display: flex;
+                justify-content: center;
+                margin-top: 255px;
+                
+            }
+
+            .slider1 img {
+                display: block;
+            }
+
+            .slider1 {
+                margin-right: 10px;
+
+            }
+
+            .slider2 {
+                margin-left: 10px;
+                margin-top: 115px;
+            }
+
+            .slider2 img {
+                display: block;
+            }
+
+            #img3 {
+                position: relative;
+                top: 20px;
+            }
+
+            #img4 {
+                position: relative;
+                top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="divClass">
+                <img src="./images/logo.svg" width="29px" height="40.5px">
+                <p id="logoText">Logo Here</p>
+            </div>
+            
+            <nav class="navLinks">
+                <a href="#">Home</a>
+                <a href="#">Work</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="mainWrapper">
+                <div class="leftSideWrapper">
+                    <div class="welcomeText">
+                        <p id="welcMessage">Hi, I am Khuchucha Kaci A Product Designer based in City. 
+                        </p>
+        
+                        <p id="slogan">
+                        I help businesses and companies reach 
+                        their goals by designing user-centric digital 
+                        products & interactive experiences.
+                        </p>
+                            
+                    </div>
+        
+                    <a href="#" class="sendBtn">
+                        <img src="./images/email.svg" width="24px" height="24px">
+                        hi@yourname.com
+                    </a>
+                </div>
+
+                <div>
+                    <img src="./images/khuchucha_kaci.png">
+                </div>
+            </div>
+
+            <a href="#" class="featuredWorkBtn">
+                <img src="./images/Arrow_1.svg">
+                <p>FEATURED WORK</p>
+            </a>
+
+            <div class="sliderWrapper">
+                <div class="slider1">
+                    <div class="image1">
+                        <p>InVersion</p>
+                    </div>
+    
+                    <img id="img3" src="./images/unsplash_pqzRfBhd9r0.png">
+                </div>
+    
+                <div class="slider2">
+                    <img src="./images/unsplash_g-pKprPg5yw.png">
+                    <img id="img4" src="./images/unsplash_x-HpilsdKEk.png">
+    
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+
+        </footer>
+    </body>
+</html>
