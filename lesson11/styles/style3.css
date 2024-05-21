@@ -1,0 +1,32 @@
+:root {
+    --colorOfSomeRandomTag: rgb(255, 238, 52);
+}
+
+li::marker {
+    color: var(--colorOfSomeRandomTag);
+    font-size: 28px;
+}
+
+#randomText::selection {
+    color: var(--colorOfSomeRandomTag);
+    background: rgb(26, 164, 166);
+}
+
+#randomText::before {
+    content: url('https://www.w3schools.com/css/smiley.gif');
+}
+
+#randomText:hover::after {
+    content: "Please read this";
+    color: rgb(190, 27, 16);
+    display: block;
+}
+
+h3::first-letter {
+    font-size: 36px;
+    color: red;
+}
+
+h3::first-line {
+    background-color: var(--colorOfSomeRandomTag);
+}

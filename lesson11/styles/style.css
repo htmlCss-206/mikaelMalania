@@ -1,0 +1,17 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    background-color: rgb(40, 78, 138);
+    border: 3px solid black;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-element {
+    background-color: rgb(132, 132, 201);
+    border: 2px solid rgb(22, 22, 70);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}

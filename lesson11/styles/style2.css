@@ -1,0 +1,37 @@
+.element1 {
+    grid-area: header;
+}
+
+.element2 {
+    grid-area: menu;
+}
+
+.element3 {
+    grid-area: main;
+}
+
+.element4 {
+    grid-area: Aside;
+}
+
+.element5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main Aside Aside'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: rgb(74, 74, 171);
+    padding: 15px;
+}
+
+.grid-container > div {
+    background-color: rgb(134, 134, 186);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
