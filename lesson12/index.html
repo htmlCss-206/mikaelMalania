@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            #username, #password {
+                display: block;
+                /* margin-bottom: 20px; */
+                padding: 15px;
+                border-radius: 10px;
+            }
+
+            #submit {
+                padding: 10px 30px;
+                border-radius: 20px;
+            }
+
+            .usernameWrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 400px;
+            }
+
+            .passwordWrapper {
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 400px;
+                margin-bottom: 30px;
+            }
+
+            label[for="uName"] {
+                color: rgb(43, 110, 129);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form action="./checker.html">
+            <div class="usernameWrapper">
+                <label for="uName">Please enter your username: </label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+
+            <div class="passwordWrapper">
+                <label>Please enter your password: </label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <input type="submit" id="submit" value="Log In">
+        </form>
+
+    </body>
+</html>
